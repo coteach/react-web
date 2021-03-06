@@ -1,0 +1,55 @@
+form.search-bar{
+    padding: 20px;
+}
+
+form.search-bar .dropdown{
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 10px;
+
+    width: 60vw; /* PC */
+}
+
+form.search-bar .dropdown .search-item{
+    flex: 1;
+    height:64px;
+}
+
+form.search-bar .dropdown .btn{
+    border-color:initial;
+    background-color:initial;
+    color:initial;
+    border:none;
+}
+
+form.search-bar .dropdown .word{
+    flex: 10;
+    background-color: aliceblue;
+    border:none;
+}
+
+form.search-bar .dropdown .search-btn{
+    background: #4ad295;
+}
+
+@media (max-width: 900px){
+	form.search-bar .dropdown{
+        width:90vw;
+    }
+}
+
+/* 
+ * placeholder
+ */
+form.search-bar .dropdown .word::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:lightgrey;
+    opacity: 1; /* Firefox */
+}
+
+form.search-bar .dropdown .word:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+form.search-bar .dropdown .word::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import TitleBar from './components/TitleBar';
+import SearchBar from './components/SearchBar';
 
 function App() {
 	return (
@@ -14,6 +15,9 @@ function App() {
 			<div className="outer">
 				<div className="session">
 					<TitleBar></TitleBar>
+				</div>
+				<div className="session">
+					<SearchBar></SearchBar>
 				</div>
 				
 			</div>
