@@ -1,16 +1,13 @@
 import './App.css';
 import TitleBar from './components/TitleBar';
 import SearchBar from './components/SearchBar';
+import NavBar from './components/NavBar';
 
 function App() {
 	return (
 		<div className="App">
-
-
-			<header>
-
-			</header>
-
+			
+			<NavBar></NavBar>
 
 			<div className="outer">
 				<div className="session">

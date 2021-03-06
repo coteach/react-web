@@ -2,11 +2,8 @@
   	background-color: #282c34;
 }
 
-a {
-	color: #61dafb;
-}
-
 .outer {
+	margin-top: 50px;
 	padding-top: 50px;
 	text-align: center;
 	min-height: 100vh;

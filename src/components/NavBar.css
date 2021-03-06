@@ -1,0 +1,53 @@
+.open{
+	visibility: visible;
+}
+
+.closed{
+	visibility: collapse;
+}
+
+.left-btn{
+	visibility: collapse;
+	width: 40px;
+	height: 40px;
+}
+
+#left{
+	position:fixed;
+	z-index: 200;
+	background-color:aliceblue;
+	height: 100vh;
+	top: 50px;
+	display: flex;
+	flex-direction:column;
+	width: 200px;
+}
+
+#menu_mask{
+	background-color:  rgba(0,0,0,.75);
+	position:fixed;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+}
+
+#top{
+	position:fixed;
+	top: 0;
+	width: 100%;
+	z-index: 300;
+}
+
+#top nav{
+	height: 50px;
+}
+
+@media (max-width: 900px){
+	.top-left-nav{
+		visibility: collapse;
+	}
+
+	.left-btn{
+		visibility:visible;
+	}
+}
