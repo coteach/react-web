@@ -36,6 +36,7 @@ function CNavbar() {
                     <Nav className="mr-auto top-left-nav">
                         {l.map(function (ele,c) { return <Nav.Link href={ele.href} key={c.toString()}>{ele.title}</Nav.Link> })}
                     </Nav>
+                    <AccountBar></AccountBar>
                 </Navbar>
             </div>
         </div>

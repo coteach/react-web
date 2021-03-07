@@ -1,0 +1,28 @@
+.top-right-nav{
+    padding: 5px 0;
+}
+
+.top-right-nav .nav-link{
+    margin: 0 0.5em;
+}
+
+.top-right-nav .nav-link.btn-sm.btn-danger{
+    color: aliceblue;
+}
+
+.top-right-nav .nav-link.account-img{
+    padding: 0;
+}
+
+.top-right-nav .nav-link.account-img i{
+    padding-top:3px;
+    font-size: 32px;
+}
+
+.account-panel{
+    position:absolute;
+    display: flex;
+    top:50px;
+    right: 10px;
+    width: 230px;
+}
